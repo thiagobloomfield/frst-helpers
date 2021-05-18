@@ -1,6 +1,12 @@
-# frst-helpers
+<p align="center">
+  <a href="https://frstfalconi.com/">
+    <img src="https://frstfalconi.com/wp-content/themes/frst-theme/img/logo-frst-completo2x.png" height="150" width="175" alt="FRSTFalconi" />
+  </a>
+</p>
 
-Classes
+<p align="center">NOSSO PROPÓSITO É REVOLUCIONAR O APRENDIZADO PARA GERAR IMPACTO POSITIVO NAS PESSOAS E NO MUNDO.</p>
+
+## Classes
 
 ModelUtils
     Uso:
