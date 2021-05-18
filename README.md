@@ -26,13 +26,32 @@ Classes
 ============
 
 ModelUtils
-    Uso:
-        const modelUtils = new ModelUtils(ReferenciaModulo)
-        modelUtils.updateOrCreate(valores, condicao)
-            valores: (array) array com valores a serem inseridos no model
-            condicao: condição para serem inseridos
+-----
+
+Classe para auxiliar o uso de model pelo sequelize
+
+Parâmetros:
+- valores: (array) array com valores a serem inseridos no model
+- condicao: (object) condição para serem inseridos
+
+```bash
+const modelUtils = new ModelUtils(ReferenciaModulo)
+modelUtils.updateOrCreate(valores, condicao)
+```
+        
 
 MailService
-    Uso:
-        const mailService = new MailService(urlDoVero, tokenDoVero)
-        mailService.sendMail(objDados, nomeDoEvento)
+-----
+
+Classe para enviar email pelo vero
+
+Parâmetros:
+- urlDoVero: (string) url do vero
+- tokenDoVero: (string) token de acesso ao vero
+- objDados: (object) objeto para envio de email
+- nomeDoEvento: (string) nome do evento cadastrado no vero
+
+```bash
+const mailService = new MailService(urlDoVero, tokenDoVero)
+mailService.sendMail(objDados, nomeDoEvento)
+```        
