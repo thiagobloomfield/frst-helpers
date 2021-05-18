@@ -6,7 +6,24 @@
 
 <p align="center">NOSSO PROPÓSITO É REVOLUCIONAR O APRENDIZADO PARA GERAR IMPACTO POSITIVO NAS PESSOAS E NO MUNDO.</p>
 
-## Classes
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Instalação](#Instalação)
+   * [Classes](#Classes)
+      * [ModelUtils](#ModelUtils)
+      * [MailService](#MailService)
+<!--te-->
+
+Instalação
+============
+
+```bash
+npm i frst-helpers
+```
+
+Classes
+============
 
 ModelUtils
     Uso:
