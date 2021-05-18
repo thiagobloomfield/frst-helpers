@@ -10,6 +10,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Instalação](#Instalação)
+   * [Uso](#Uso)
    * [Classes](#Classes)
       * [ModelUtils](#ModelUtils)
       * [MailService](#MailService)
@@ -20,6 +21,23 @@ Instalação
 
 ```bash
 npm i frst-helpers
+```
+
+Uso
+============
+
+Para usar basta importar o nome da classe desejada
+
+ES6
+
+```bash
+import { ModelUtils, MailService } from 'frst-helpers'
+```
+
+ES5
+
+```bash
+const { ModelUtils, MailService } = require('frst-helpers')
 ```
 
 Classes
