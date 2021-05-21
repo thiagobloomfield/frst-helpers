@@ -1,6 +1,6 @@
 {
   "name": "frst-helpers",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Helpers projeto FRST",
   "main": "src/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thiagobloomfield/frst-helpers#readme",
   "dependencies": {
-    "dotenv": "^9.0.2"
+    "dotenv": "^9.0.2",
+    "jsonwebtoken": "^8.5.1"
   }
 }
