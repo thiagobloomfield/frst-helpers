@@ -14,6 +14,7 @@ Tabela de conteúdos
    * [Classes](#Classes)
       * [ModelUtils](#ModelUtils)
       * [MailService](#MailService)
+      * [VerifyToken](#VerifyToken)
 <!--te-->
 
 Instalação
@@ -72,4 +73,19 @@ Parâmetros:
 ```bash
 const mailService = new MailService(urlDoVero, tokenDoVero)
 mailService.sendMail(objDados, nomeDoEvento)
-```        
+```  
+
+VerifyToken
+-----
+
+Classe para verificar via JWT a validade de um token, usar como middleware
+
+- Dependênicas: dotenv, (SECRET)
+
+
+```bash
+const { VerifyJWT } = require('frst-helpers')
+
+const indexRouter = require('./index.route')
+app.use('/', VerifyJWT, indexRouter)
+```  
